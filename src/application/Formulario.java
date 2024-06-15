@@ -36,7 +36,7 @@ public class Formulario extends Application{
             progressBar.setProgress(newValue.doubleValue());
             sliderValueLabel.setText(String.format("%.0f%%", newValue.doubleValue() * 100));
         });
-        // Añadir controles al GridPane
+        // AÃ±adir controles al GridPane
         grid.add(new Label("Button:"), 0, 0);
         grid.add(button, 1, 0);
         grid.add(new Label("CheckBox:"), 0, 1);
@@ -64,7 +64,7 @@ public class Formulario extends Application{
 
         Scene scene = new Scene(grid, 600, 600);
 
-        primaryStage.setTitle("JavaFX Controls Example");
+        primaryStage.setTitle("Formulario");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
